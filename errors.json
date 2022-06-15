@@ -1,51 +1,10 @@
 [
     {
-        'pattern':'module (.+) not found',
-        'text':'Модуль (библиотека) [VAR0] не найдена',
-        'tip':'Долбаеб, установи библиотеку [VAR0]'
+        'Name':'Masturbek',
+        'Age':'-1'
     },
     {
-        'pattern':"module '(.+)' not found:",
-        'tip':'Модуль [VAR1] не найден'
-    },
-
-    {
-        'pattern':"unexpected symbol near '(.+)'",
-        'tip':'Неизвестный символ рядом с "[VAR1]"'
-    },
-
-    {
-        'pattern':"'(.+)' expected near '(.+)'",
-        'tip':'"[VAR1]" ожидается рядом с "[VAR2]"'
-    },
-
-    {
-        'pattern':"'(.+)' expected %(to close '(.+)' at line (.+)%) near '<eof>'",
-        'tip':'ожидается "[VAR1]" для закрытия "[VAR2]", которая начинается со строки [VAR3]'
-    },
-
-    {
-        'pattern':"attempt to call global '(.+)' %(a nil value%)",
-        'tip':'Не удается вызвать [VAR1] (пустое значение)'
-    },
-
-    {
-        'pattern':"bytecode",
-        'tip':'Скрипту требуется другая версия MoonLoader'
-    },
-
-    {
-        'pattern':'table overflow',
-        'tip':'Таблица переполнена'
-    },
-
-    {
-        'pattern':"attempt to index (.+) '(.+)' %(a nil value%)",
-        'tip':'не удается получить доступ к [VAR1], значение "[VAR2]" не указано ([VAR2] == nil)'
-    },
-
-    {
-        'pattern':'samp.events requires SAMPFUNCS',
-        'tip':'Для работы SAMP.lua необходимо установить SAMPFUNCS',
+        'Name':'Akakiy',
+        'Age':'932'
     }
 ]
