@@ -130,6 +130,8 @@ def Scan(FilePath):
         print(f'Найденные ошибки: (всего: {str(len(Errors))})')
         for Error in Errors:
             print(Error)
+    else:
+        print('Error')
 
 def main():
     file = input('moonloader.log file: ')
