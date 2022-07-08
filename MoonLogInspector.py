@@ -130,15 +130,7 @@ def Scan(FilePath):
         print(f'Найденные ошибки: (всего: {str(len(Errors))})')
         for Error in Errors:
             print(Error)
-    else:
-        print(f'Ошибка: {Errors[0]}')
-        if Errors[0] == 'errors_list_is_empty':
-            key = input('Скачать список ошибок? (Y/N): ')
-            if key.lower() == 'y':
-                Status, list = MoonLog.LoadErrors()
-                Scan(FilePath)
-            else:
-                sys.exit()
+
 def main():
     file = input('moonloader.log file: ')
     if os.path.isfile(file):
